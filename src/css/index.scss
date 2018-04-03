@@ -1,0 +1,41 @@
+body,ul,li,div,p{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+ul,li{
+    list-style: none;
+}
+.svg-icon {
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+}
+.el-submenu .el-menu-item{
+   
+    min-width:179px!important;
+}
+
+
+//vue组件过渡transition
+.fade-enter-active,
+.fade-leave-active {
+  transition: all .2s ease
+}
+
+.fade-enter,
+.fade-leave-active {
+  opacity: 0;
+}
+
+.el-breadcrumb__inner, .el-breadcrumb__inner a{
+    font-weight: normal !important;
+}
+.el-tag{
+    margin: 0 10px;
+    cursor: pointer;
+}

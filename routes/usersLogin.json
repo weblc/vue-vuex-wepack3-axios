@@ -1,0 +1,34 @@
+{
+    "userToken": [
+        {
+            "userEamil": "webl_c@163.com",
+            "passWord": "123456",
+            "id": 1,
+            "token": "webl_cToken"
+        },
+        {
+            "userEamil": "874007386@qq.com",
+            "passWord": "123456",
+            "id": 2,
+            "token": "87400Token"
+        }
+    ],
+    "userInfo": [
+        {
+            "id": 1,
+            "token": "webl_cToken",
+            "roles": [
+                "superAdmin"
+            ],
+            "name": "小明"
+        },
+        {
+            "id": 2,
+            "token": "87400Token",
+            "roles": [
+                "guest"
+            ],
+            "name": "小王"
+        }
+    ]
+}
